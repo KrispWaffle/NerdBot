@@ -97,7 +97,7 @@ client.on('messageCreate', async (message) => {
 
     const id = message.member.id;
 
-    if (message.content == '') {
+    if (message.content == 'NERD!') {
         if (!counts[id]) {
             counts[id] = 0;
         }
